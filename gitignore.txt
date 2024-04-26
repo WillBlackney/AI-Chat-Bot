@@ -1,6 +1,7 @@
+# Ignore .env files
+.env
+
 **node_modules
 **.env
 **package-lock.json
 **dist
-# Ignore .env files
-.env
