@@ -1,8 +1,7 @@
-import React from "react";
 import { Box, Avatar, Typography } from "@mui/material";
 import { useAuth } from "../../context/AuthContext";
-// import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-// import { coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 function extractCodeFromString(message: string) {
   if (message.includes("```")) {
@@ -33,8 +32,10 @@ const ChatItem = ({
   content: string;
   role: "user" | "assistant";
 }) => {
+  
   const messageBlocks = extractCodeFromString(content);
   const auth = useAuth();
+
   return role == "assistant" ? (
     <Box
       sx={{

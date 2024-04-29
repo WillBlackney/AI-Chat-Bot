@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import React from "react";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,19 +12,19 @@ const Footer = () => {
           marginTop: 60,
         }}
       >
-        <p style={{ fontSize: "30px", textAlign: "center", padding: "20px" }}>
-          Built With love by
+        {/* <p style={{ fontSize: "30px", textAlign: "center", padding: "20px" }}>
+         // Built With love by 
           <span>
             <Link
               style={{ color: "white" }}
               className="nav-link"
               to={"https://youtube.com/indiancoders"}
             >
-              Indian Coders
+             // Indian Coders
             </Link>
           </span>
           💘
-        </p>
+        </p> */}
       </div>
     </footer>
   );

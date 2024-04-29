@@ -1,11 +1,13 @@
 import { Box, Button, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import CustomizedInput from "../components/shared/CustomizedInput";
 import { IoIosLogIn } from "react-icons/io";
 import toast from "react-hot-toast";
 import { useAuth } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 function Login() {
   const auth = useAuth();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -21,6 +23,10 @@ function Login() {
       toast.error("Sign in failed.", { id: "login" });
     }
   };
+useEffect(()=>{
+if(auth?.user){
+  return navigate("/chat");}
+}, [auth, navigate]);
 
   return (
     <Box width={"100%"} height={"100%"} display={"flex"} flex={1}>

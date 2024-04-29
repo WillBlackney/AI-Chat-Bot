@@ -13,7 +13,7 @@ export const validate = (validations) => {
     };
 };
 export const loginValidator = [
-    body("email").trim().isEmail().withMessage("Email is invalid"),
+    body("email").trim().isEmail().withMessage("login validator: Email is invalid"),
     body("password")
         .trim()
         .isLength({ min: 6 })
@@ -25,6 +25,5 @@ export const signupValidator = [
 ];
 export const chatCompletionValidator = [
     body("message").notEmpty().withMessage("Message is required"),
-    ...loginValidator,
 ];
 //# sourceMappingURL=validators.js.map
