@@ -14,8 +14,11 @@ export const generateChatCompletion = async (req, res, next) => {
             role,
             content,
         }));
+        console.log("chats/24", chats);
         chats.push({ content: message, role: "user" });
         user.chats.push({ content: message, role: "user" });
+        console.log("chats/27", user.chats);
+        console.log("user.chats/28", user.chats);
         // send all chats with new one to openAI API
         const config = configureOpenAI();
         const openai = new OpenAIApi(config);
@@ -24,8 +27,10 @@ export const generateChatCompletion = async (req, res, next) => {
             model: "gpt-3.5-turbo",
             messages: chats,
         });
+        console.log("chatsResponse/37", chatResponse);
         user.chats.push(chatResponse.data.choices[0].message);
         await user.save();
+        console.log("user/37", chats);
         return res.status(200).json({ chats: user.chats });
     }
     catch (error) {
