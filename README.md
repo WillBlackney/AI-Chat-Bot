@@ -4,7 +4,7 @@
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4  🚀 [Installation](#installation)
+4. 🚀 [Installation](#installation)
 5. 🤸 [Screenshots](#screenshots)
 
 ## <a name="introduction">🤖 Introduction</a>
