@@ -1,5 +1,4 @@
 # AI Chat Bot Template: A Free Video Chat Room Web App!
-![ai_bot_example](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/f34b3744-3673-4bf3-994d-ca24002ea8dd)
 ![ai_example_wide](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/544b7264-367a-4e3b-af66-077468a8422a)
 
 1. 🤖 [Introduction](#introduction)
@@ -29,11 +28,9 @@ AI Chat Bot Template is a free full stack web application project template for b
 
 👉 **JWT Authentication**: Implements authentication and authorization features using JWT. The tokens are stored as a ‘HTTP only’ cookie in the user’s browser for 7 days. As a result, users are only required to login and authenticate once every seven days instead of everytime they visit the platform, while ensuring appropriate access levels and permissions across the platform in a secure way.
 
-
 👉 **Password encryption and security middleware with Express.js**: Passwords and data sent to the MongoDB and securely encrypted. The express service implements several middleware validators to ensure data security and input sanitation during the user signup and authentication processes.
 
 👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
 
 ## <a name="installation">🚀 Installation</a>
 
@@ -50,7 +47,6 @@ npm install
 npm run dev
 ```
 
-
 ### Install the backend packages, and run it locally
 ```bash
 cd ..
@@ -62,7 +58,6 @@ npm run dev
 ### Create an account at [OpenAI](https://platform.openai.com/docs/overview) and set up an organization ID + secret key.
 
 ### Create a [MongoDB](https://www.mongodb.com/) account and database.
-
 
 ### Set up the project  .env file
 
@@ -96,7 +91,6 @@ This requires a body in raw json format like below
 	“password”: “123456”
 }
 ```
-
 
 ## <a name="screenshots">🤸 Screenshots</a>
 
