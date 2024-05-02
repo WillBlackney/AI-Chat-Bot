@@ -1,4 +1,4 @@
-![ss_home](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/1a58aea6-5738-444d-a70c-4dcf48b4c46d)# AI Chat Bot Template: A Free Video Chat Room Web App!
+# AI Chat Bot Template: A Free Video Chat Room Web App!
 ![ai_bot_example](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/f34b3744-3673-4bf3-994d-ca24002ea8dd)
 
 1. 🤖 [Introduction](#introduction)
