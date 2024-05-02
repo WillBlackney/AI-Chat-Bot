@@ -1,4 +1,4 @@
-# AI Chat Bot Template: A Free Video Chat Room Web App!
+![ss_home](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/1a58aea6-5738-444d-a70c-4dcf48b4c46d)# AI Chat Bot Template: A Free Video Chat Room Web App!
 ![ai_bot_example](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/f34b3744-3673-4bf3-994d-ca24002ea8dd)
 
 1. 🤖 [Introduction](#introduction)
@@ -99,20 +99,12 @@ This requires a body in raw json format like below
 
 ## <a name="screenshots">🤸 Screenshots</a>
 
-### 1
-![](screenshots/Vision-Vista-Login.png)
+### Home Page
+![ss_home](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/c48ede2f-e951-4f5b-8d0b-8c2dca8778de)
 
-### 2
-![](screenshots/Vision-Vista-Home.png)
+### Chat Page
+![ss_chat_example](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/b7090ae0-45b3-4157-9aca-364cd1b6ca29)
 
-### 3
-![](screenshots/Vision-Vista-Schedule-Meeting.png)
+### Login / Signup
+![ss_signup](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/3fe070c7-20c6-409f-9ba0-c0ca19f78342)
 
-### 4
-![](screenshots/Vision-Vista-Join-Meeting-With-Link.png)
-
-### 5
-![](screenshots/Vision-Vista-Solo-Call.png)
-
-### 6
-![](screenshots/Vision-Vista-Recordings-List.png)
