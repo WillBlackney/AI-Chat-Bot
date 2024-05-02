@@ -1,4 +1,4 @@
-# AI Chat Bot Template: A Free Video Chat Room Web App!
+# AI Chat Bot Template: A Free MERN Stack Project
 ![ai_example_wide](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/544b7264-367a-4e3b-af66-077468a8422a)
 
 1. 🤖 [Introduction](#introduction)
