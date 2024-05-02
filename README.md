@@ -1,5 +1,5 @@
 # AI Chat Bot Template: A Free Video Chat Room Web App!
-![](screenshots/Vision-Vista-Home.png)
+![ai_bot_example](https://github.com/WillBlackney/AI-Chat-Bot/assets/44806865/f34b3744-3673-4bf3-994d-ca24002ea8dd)
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
@@ -17,8 +17,8 @@ AI Chat Bot Template is a free full stack web application project template for b
 - <a href="https://nodejs.org/en" target="_blank"><b>Node</b></a>. 
 - <a href="https://expressjs.com/" target="_blank"><b>Express</b></a>. 
 - <a href="https://www.mongodb.com/" target="_blank"><b>MongoDB</b></a>. 
-- <a href="https://jwt.io/" target="_blank"><b>JWT</b></a>. 
-- <a href=”https://vitejs.dev/” target="_blank"><b>Vite</b></a>. 
+- <a href="https://jwt.io/" target="_blank"><b>JWT</b></a>.
+- <a href="https://vitejs.dev/" target="_blank"><b>Vite</b></a>. 
 - <a href="https://www.typescriptlang.org/" target="_blank"><b>Typescript</b></a>. 
 - <a href="https://tailwindcss.com/" target="_blank"><b>Tailwind CSS</b></a>. 
 
